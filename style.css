@@ -1,0 +1,158 @@
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+  src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+       url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal; }
+
+body {
+    margin:0;
+    font-family: 'Roboto';
+    background: #f3f3f3;
+}
+
+.header {
+    width:100%;
+    background: #222;
+    padding: 15px 0;
+    
+}
+
+.header .container {
+    max-width: 1200px;  
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav{
+    display: block;
+    text-align: center;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+.nav a:hover {
+    color: #ff6600;
+}
+
+.header .logo  {
+    width: 80px;
+    margin-left: 10px;
+}
+
+.header .logo img  {
+    width: 100%;
+}
+
+.row {
+    padding-top: 15px;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+
+.search button {
+    padding: 6px 10px;
+    border: none;
+    background: #ff6600;
+    color: white;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background: #e65c00;
+}
+
+
+.product-list {
+    max-width: 1200px;
+    padding: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: wrap;
+    gap:10px;   
+}
+
+.container{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    max-width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease
+}
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+}
+
+.card-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.card-body {
+    padding: 15px;
+}
+
+.card-title {
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.card-title a {
+    text-decoration: none;
+    color: #222;
+}
+.card-price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #ffffff;
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background: #000000;
+    color:#ffffff;
+    transform: scale(1.05);
+}
+
+
