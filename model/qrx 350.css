@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'ClashDisplay-Semibold';
+  src: url('../fonts/ClashDisplay-Semibold.woff2') format('woff2'),
+       url('../fonts/ClashDisplay-Semibold.woff') format('woff'),
+       url('../fonts/ClashDisplay-Semibold.ttf') format('truetype');
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal; }
+body {
+  font-family: 'Roboto';
+}
+
+.specs{
+  max-width: auto;
+  margin-top: 10px;
+  margin: 20px right;
+}
+
+details {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  background: #f9f9f9;
+}
+
+summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+
+.spec-list {
+  margin-top: 10px;
+}
+
+.spec-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.spec-item:last-child {
+  border-bottom: none;
+}
+
+.label {
+  color: #555;
+}
+
+.value {
+  font-weight: bold;
+}
+
+.nav {
+  display: block;
+  text-align: center;
+    padding: 25px;
+
+}
